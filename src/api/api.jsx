@@ -8,7 +8,7 @@ const ServerAPIUpload = (baseURL) => {
 
 const ServerAPIGet = (baseURL) => {
     return axios.create({
-        baseURL: baseURL || "http://ec2-3-0-57-41.ap-southeast-1.compute.amazonaws.com:8080//"
+        baseURL: baseURL || "http://ec2-3-0-57-41.ap-southeast-1.compute.amazonaws.com:8080/"
 })}
 
 export const apiUploadURL = (uploadData) => {
