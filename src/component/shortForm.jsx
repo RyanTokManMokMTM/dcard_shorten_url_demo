@@ -20,9 +20,6 @@ const ShortForm = (props)=>{
 
 
     const onGetSortenURL = (event)=>{
-        //sending request
-        if(url == "" || date == "") return
-        
         let utc = new Date(date)
         const uploadData = {
             "url":url,
