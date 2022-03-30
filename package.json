@@ -2,7 +2,7 @@
   "name": "dcard-demo",
   "version": "0.1.0",
   "private": true,
-  "proxy":"http://localhost:8080/",
+  "proxy":"http://ec2-3-0-57-41.ap-southeast-1.compute.amazonaws.com:8080/",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@testing-library/jest-dom": "^5.16.3",
