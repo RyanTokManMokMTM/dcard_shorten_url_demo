@@ -64,7 +64,7 @@ const ShortForm = (props)=>{
         <br/>
         <Button variant="contained" color="primary" onClick={onGetSortenURL}>GET SHORT URL</Button>
         <br/>
-        { !isError && shorten != "" ?   
+        { !isError && shorten !== "" ?   
                 <Button  style={{margin:10,padding:10}} href={shorten} variant="contained" color="secondary" >{shorten}</Button>:  
         <span></span> }
         { isError ? <b style={{color:"#F00"}}>{errMsg}</b> : <span></span>}
