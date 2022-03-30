@@ -62,7 +62,7 @@ const ShortForm = (props)=>{
         />
         <br/>
         <br/>
-        <Button variant="contained" color="primary" onClick={onGetSortenURL}>GET SHORTEN URL</Button>
+        <Button variant="contained" color="primary" onClick={onGetSortenURL}>GET SHORT URL</Button>
         <br/>
         { !isError && shorten != "" ?   
                 <Button  style={{margin:10,padding:10}} href={shorten} variant="contained" color="secondary" >{shorten}</Button>:  
